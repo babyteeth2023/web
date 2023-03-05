@@ -1,0 +1,51 @@
+/* the star selects all elements */
+*{
+	box-sizing: border-box; /* see documentation for box-sizing!!*/
+    border-color: #d5f19b;
+}
+
+body{
+	background-color: #fc6ca3;
+    font-family:sans-serif;
+	padding-bottom: 200px; /*adds space to the bottom of the page*/
+    color: #d3f199;
+}
+
+h1, h3{
+	text-align: center;
+    color: #d3f199;
+}
+
+#wrapper{
+	display: block; /* see documentation for "display" !*/
+	margin-left: auto; /* centers the element */
+	margin-right: auto; /* centers the element */
+	width:60%;
+	border: solid 2px black;
+	padding:20px;
+    text-align: center;
+    border-color: #d5f19b;
+}
+
+img{
+	width:100%; 
+}
+
+p{
+	text-align: justify;
+    border-color: #fa6998;
+    border-style: dotted;
+}
+
+a{
+	text-decoration: none;
+	color: #d5f19b;
+	text-shadow: 2px 2px 10px #90b618;
+    text-align: center;
+}
+
+/*STYLING THE NAVIGATION BAR*/
+nav{
+	width: 100%;
+	text-align: center;
+}
